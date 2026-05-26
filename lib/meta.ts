@@ -11,13 +11,13 @@ export const siteMeta = {
   bookingUrl: "https://cal.com/nour-badr/intro",
   cvUrl: "/nour-badr-cv.pdf",
   companies: [
+    "Craft Crew",
     "Neoxero",
+    "Vertex Era",
     "Atech",
     "Perfect Touch",
     "Smartivemedia",
     "Alefsoftware",
     "Syft.la",
-    "Craft Crew",
-    "Vertex",
   ],
 } as const;

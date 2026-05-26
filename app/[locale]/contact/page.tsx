@@ -1,13 +1,10 @@
 "use client";
 
-import { useTranslations, useLocale } from "next-intl";
-import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { siteMeta } from "@/lib/meta";
 
 export default function ContactPage() {
   const t = useTranslations("contact");
-  const locale = useLocale() as "en" | "ar";
-  const [showCal, setShowCal] = useState(false);
 
   const rows = [
     { label: t("email"), value: siteMeta.email, href: `mailto:${siteMeta.email}` },
@@ -52,29 +49,6 @@ export default function ContactPage() {
           </li>
         ))}
       </ul>
-
-      <div className="mt-20">
-        <h2 className="font-[var(--font-mono)] text-[11px] tracking-widest text-[var(--color-accent)] mb-6">
-          {locale === "ar" ? "احجز مكالمة" : "BOOK A CALL"}
-        </h2>
-        {!showCal ? (
-          <button
-            type="button"
-            onClick={() => setShowCal(true)}
-            className="font-[var(--font-mono)] text-sm bg-[var(--color-accent)] text-[var(--color-bg)] px-6 py-3 hover:opacity-90 transition-opacity"
-            data-cursor="hover"
-          >
-            {t("bookCall")} →
-          </button>
-        ) : (
-          <iframe
-            src={siteMeta.bookingUrl}
-            title="Booking"
-            className="w-full h-[640px] border border-[var(--color-rule)]"
-            loading="lazy"
-          />
-        )}
-      </div>
     </article>
   );
 }

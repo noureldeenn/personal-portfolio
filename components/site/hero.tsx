@@ -106,8 +106,8 @@ export function Hero() {
 
               <dl className="space-y-3 text-sm">
                 {[
-                  { k: tStats("years"), v: "4+" },
-                  { k: tStats("companies"), v: "6+" },
+                  { k: tStats("years"), v: "5+" },
+                  { k: tStats("companies"), v: "8+" },
                   { k: tStats("projects"), v: "30+" },
                   { k: tStats("languages"), v: locale === "ar" ? "٢" : "2" },
                 ].map((row) => (

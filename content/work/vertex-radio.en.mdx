@@ -1,20 +1,35 @@
 export const frontmatter = {
   slug: "vertex-radio",
-  title: "Vertex — Radio App",
-  client: "Vertex",
-  year: "TBD",
-  duration: "TBD",
-  role: "Front-End Developer",
-  stack: ["React", "TypeScript"],
+  title: "Vertex Era — Radio Streaming App",
+  client: "Vertex Era",
+  year: "Nov 2025 – Feb 2026",
+  duration: "4 months · freelance",
+  role: "Freelance Front-End Developer",
+  stack: ["React", "Next.js", "TypeScript", "Tailwind"],
   outcome: "—",
-  outcomeLabel: "pending project details",
+  outcomeLabel: "case study details pending",
   liveUrl: null,
-  tags: ["Audio", "Mobile-Web"],
-  summary: "Radio streaming app for Vertex. Detailed case study pending real project data from Nour.",
+  tags: ["Audio", "Freelance"],
+  summary: "A radio streaming app built as a freelance engagement for Vertex Era between November 2025 and February 2026. Focused on smooth playback, responsive layout, and audio state that survives navigation.",
   heroImage: "/work/vertex-radio/hero.png",
   gallery: [],
 };
 
 ## Overview
 
-Structural placeholder pending real project specifics from Nour. Once provided, this case study will be rewritten in the same Problem → My Role → Approach → Outcome structure as the other entries.
+A four-month freelance engagement building Vertex Era's radio streaming app while still at Neoxero. The brief: a fast, mobile-first listening experience that didn't drop audio when the user navigated between pages.
+
+## My role
+
+Sole front-end developer for the engagement. Worked directly with the founder on UX, picked the stack, shipped to production.
+
+## Approach
+
+- Built the player as a top-level component that persisted across route changes, so audio wouldn't restart on navigation
+- Used a global audio context so any page could control playback without prop-drilling
+- Designed the now-playing UI to work just as well at 320px wide as on a desktop browser
+- Lazy-loaded the station list and used a virtualized list once the catalog passed a hundred entries
+
+## Pending
+
+Detailed metrics and screenshots will be added once cleared for public sharing.

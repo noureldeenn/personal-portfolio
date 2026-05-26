@@ -12,8 +12,26 @@ type Entry = {
 
 const entries: Entry[] = [
   {
+    company: "Craft Crew",
+    dates: "Jun 2026 – Present",
+    role: "Front-End Developer",
+    description: {
+      en: "Building a learning management system in Next.js, TypeScript, Tailwind, and shadcn/ui. Owning the front-end of the LMS surface from design handoff to production.",
+      ar: "أبني نظام إدارة تعلم بـ Next.js و TypeScript و Tailwind و shadcn/ui. أتولّى واجهة المنصة من تسليم التصميم حتى الإنتاج.",
+    },
+  },
+  {
+    company: "Vertex Era",
+    dates: "Nov 2025 – Feb 2026",
+    role: "Freelance Front-End Developer",
+    description: {
+      en: "Built a radio streaming app on the side. Focused on a smooth playback UI, responsive layout, and persistent audio state across navigation.",
+      ar: "بنيت تطبيق راديو بثّي كعمل مستقل. ركّزت على واجهة تشغيل سلسة، وتخطيط متجاوب، وحالة صوت تستمر عبر التنقّل.",
+    },
+  },
+  {
     company: "Neoxero",
-    dates: "Nov 2024 – Present",
+    dates: "Nov 2024 – May 2026",
     role: "Front-End Developer",
     description: {
       en: "Customized React apps for Zid Store. Built a Tailwind + shadcn/ui design system that cut UI inconsistencies 40%. Integrated Redux Toolkit, dropping API errors 20%.",
