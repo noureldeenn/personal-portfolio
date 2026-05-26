@@ -1,0 +1,84 @@
+{
+  "site": {
+    "name": "Nour Badr",
+    "role": "Front-End Engineer"
+  },
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "downloadCv": "Download CV"
+  },
+  "hero": {
+    "kicker": "Front-End · Since 2020",
+    "headline": "I build interfaces that ship and stay shipped.",
+    "sub": "Four years across e-commerce, SaaS dashboards, and marketplaces. Currently shipping in Next.js, Tailwind, and shadcn/ui at Neoxero.",
+    "ctaWork": "View work",
+    "ctaCv": "Download CV"
+  },
+  "sections": {
+    "selectedWork": "Selected Works",
+    "about": "About",
+    "skills": "Skills",
+    "moreWork": "More Work",
+    "process": "Process"
+  },
+  "skills": {
+    "frameworks": "Frameworks",
+    "styling": "Styling",
+    "state": "State Management",
+    "apis": "APIs"
+  },
+  "stats": {
+    "years": "Years building",
+    "companies": "Companies",
+    "projects": "Projects shipped",
+    "languages": "Languages"
+  },
+  "work": {
+    "back": "Back to index",
+    "entry": "Entry",
+    "client": "Client",
+    "year": "Year",
+    "duration": "Duration",
+    "role": "Role",
+    "stack": "Stack",
+    "viewLive": "View live",
+    "private": "Private",
+    "outcome": "Outcome",
+    "problem": "The problem",
+    "myRole": "My role",
+    "approach": "Approach",
+    "gallery": "Gallery",
+    "nextEntry": "Next entry",
+    "readEntry": "Read entry"
+  },
+  "pullQuote": "Code is the medium. The interface is the message.",
+  "marquee": "Shipped at",
+  "cta": {
+    "headline": "Let's build something.",
+    "sub": "Open to remote roles, MENA on-site, and paid side work.",
+    "button": "Get in touch"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "sub": "I respond within 24 hours.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "phone": "Phone",
+    "bookCall": "Book a 15-min call"
+  },
+  "footer": {
+    "contact": "Contact",
+    "site": "Site",
+    "language": "Language",
+    "rights": "All work reserved."
+  },
+  "notFound": {
+    "marker": "404 · Not Found",
+    "headline": "This page doesn't exist.",
+    "lastWord": "exist",
+    "back": "Back to home"
+  }
+}

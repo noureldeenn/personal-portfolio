@@ -1,0 +1,23 @@
+export const siteMeta = {
+  name: "Nour Badr",
+  role: "Front-End Engineer",
+  url: "https://nour-badr.netlify.app",
+  email: "Nourbadr4646@gmail.com",
+  phone: "+201159347686",
+  phoneDisplay: "+20 115 934 7686",
+  location: { en: "Cairo, Egypt", ar: "القاهرة، مصر" },
+  github: "https://github.com/noureldeenn",
+  linkedin: "https://linkedin.com/in/nour-badr-201794155",
+  bookingUrl: "https://cal.com/nour-badr/intro",
+  cvUrl: "/nour-badr-cv.pdf",
+  companies: [
+    "Neoxero",
+    "Atech",
+    "Perfect Touch",
+    "Smartivemedia",
+    "Alefsoftware",
+    "Syft.la",
+    "Craft Crew",
+    "Vertex",
+  ],
+} as const;

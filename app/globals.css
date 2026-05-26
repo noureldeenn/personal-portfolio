@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #fafaf7;
+  --color-surface: #ffffff;
+  --color-text: #18181b;
+  --color-text-muted: #6b6b6b;
+  --color-rule: #e5e3dc;
+  --color-accent: #c73e3a;
+  --color-accent-soft: #e8d4d3;
+
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-display-ar: var(--font-reem-kufi), Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-sans-ar: var(--font-plex-arabic), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "Cascadia Code", Menlo, monospace;
+}
+
+.dark {
+  --color-bg: #0f0f11;
+  --color-surface: #17171a;
+  --color-text: #edeae3;
+  --color-text-muted: #9a9a95;
+  --color-rule: #26262a;
+  --color-accent: #e45550;
+  --color-accent-soft: #3a1f1e;
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+    transition: background-color 240ms ease, color 240ms ease;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    transition: background-color 240ms ease, color 240ms ease;
+  }
+
+  html[dir="rtl"] body {
+    font-family: var(--font-sans-ar);
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-bg);
+  }
+
+  *:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+}
+
+@utility container-page {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 5vw;
+}
+
+@media (min-width: 768px) {
+  @utility container-page {
+    padding-inline: 8vw;
+  }
+}
+
+.dot-grid {
+  --mx: 50%;
+  --my: 50%;
+  background-image: radial-gradient(circle, var(--color-accent) 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: 0.04;
+  mask-image: radial-gradient(circle 400px at var(--mx) var(--my), black 0%, transparent 80%);
+  -webkit-mask-image: radial-gradient(circle 400px at var(--mx) var(--my), black 0%, transparent 80%);
+}
+
+@media (hover: none) {
+  .dot-grid {
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}
+
+html[dir="rtl"] .marquee-track {
+  animation-direction: reverse;
+}
+
+.marquee-track:hover { animation-play-state: paused; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
