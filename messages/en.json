@@ -27,7 +27,9 @@
     "frameworks": "Frameworks",
     "styling": "Styling",
     "state": "State Management",
-    "apis": "APIs"
+    "backend": "Backend",
+    "apis": "APIs",
+    "platforms": "Platforms"
   },
   "stats": {
     "years": "Years building",

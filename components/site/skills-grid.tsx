@@ -5,7 +5,9 @@ const groups = {
   frameworks: ["React", "Next.js", "Angular", "TypeScript", "JavaScript ES6+", "HTML", "CSS"],
   styling: ["Tailwind", "shadcn/ui", "Material UI", "Ant Design", "Chakra UI", "Bootstrap", "SASS", "Storybook"],
   state: ["Redux Toolkit", "Redux Thunk", "React Query", "MobX"],
+  backend: ["Node.js", "Express", "Nest.js", "Python"],
   apis: ["REST", "GraphQL"],
+  platforms: ["Zid", "Shopify (basic)"],
 };
 
 export function SkillsGrid() {
@@ -22,7 +24,7 @@ export function SkillsGrid() {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 md:gap-12">
           {(Object.keys(groups) as Array<keyof typeof groups>).map((key, i) => (
             <Reveal key={key} delay={i * 0.08}>
               <h3 className="font-[var(--font-mono)] text-[11px] tracking-widest text-[var(--color-accent)] mb-4">
