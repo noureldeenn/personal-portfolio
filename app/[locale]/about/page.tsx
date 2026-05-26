@@ -1,9 +1,7 @@
 import { setRequestLocale } from "next-intl/server";
-import Image from "next/image";
 import { Timeline } from "@/components/about/timeline";
 import { Reveal } from "@/components/motion/reveal";
 import { Link } from "@/lib/i18n/routing";
-import { siteMeta } from "@/lib/meta";
 import type { Locale } from "@/lib/i18n/routing";
 
 const bio = {
@@ -31,32 +29,17 @@ export default async function AboutPage({
   return (
     <article>
       <header className="container-page pt-12 md:pt-20 pb-16 border-b border-[var(--color-rule)]">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
-          <div className="md:col-span-7">
-            <div className="flex items-center gap-3 mb-8">
-              <span className="block w-8 h-px bg-[var(--color-accent)]" />
-              <span className="font-[var(--font-mono)] text-[10px] tracking-widest text-[var(--color-text-muted)]">
-                [—] ABOUT
-              </span>
-            </div>
-            <h1 className="font-[var(--font-display)] text-4xl sm:text-5xl md:text-6xl font-semibold tracking-[-0.02em] leading-[1.05] text-[var(--color-text)]">
-              {l === "ar"
-                ? "مهندس واجهات أمامية أبني تجارب رقمية منذ 2020."
-                : "Front-end engineer building interfaces since 2020."}
-            </h1>
-          </div>
-          <div className="md:col-span-5">
-            <div className="relative aspect-[4/5] border border-[var(--color-rule)] overflow-hidden bg-[var(--color-surface)]">
-              <Image
-                src="/about/headshot.jpg"
-                alt={siteMeta.name}
-                fill
-                sizes="(max-width: 768px) 100vw, 40vw"
-                className="object-cover"
-              />
-            </div>
-          </div>
+        <div className="flex items-center gap-3 mb-8">
+          <span className="block w-8 h-px bg-[var(--color-accent)]" />
+          <span className="font-[var(--font-mono)] text-[10px] tracking-widest text-[var(--color-text-muted)]">
+            [—] ABOUT
+          </span>
         </div>
+        <h1 className="font-[var(--font-display)] text-4xl sm:text-5xl md:text-7xl font-semibold tracking-[-0.02em] leading-[1.05] text-[var(--color-text)] max-w-4xl">
+          {l === "ar"
+            ? "مهندس واجهات أمامية أبني تجارب رقمية منذ 2020."
+            : "Front-end engineer building interfaces since 2020."}
+        </h1>
       </header>
 
       <section className="container-page py-20 md:py-28">
