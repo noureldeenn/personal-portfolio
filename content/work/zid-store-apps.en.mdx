@@ -1,0 +1,42 @@
+export const frontmatter = {
+  slug: "zid-store-apps",
+  title: "Zid Store App Customizations",
+  client: "Neoxero",
+  year: "2024–present",
+  duration: "Ongoing",
+  role: "Front-End Developer",
+  stack: ["React", "Next.js", "TypeScript", "Tailwind", "shadcn/ui", "Redux Toolkit"],
+  outcome: "+30%",
+  outcomeLabel: "load speed improvement",
+  liveUrl: null,
+  tags: ["E-commerce", "Performance"],
+  summary: "Customized React applications for the Zid Store platform, building a consistent design system with Tailwind and shadcn/ui that cut UI inconsistencies 40% and improved load speed 30%.",
+  heroImage: "/work/zid-store/hero.png",
+  gallery: ["/work/zid-store/01.png", "/work/zid-store/02.png"],
+};
+
+## Overview
+
+Neoxero ships React-based storefronts on top of Zid, the largest e-commerce platform in Saudi Arabia. The job: take each merchant's brand guidelines and translate them into a fast, on-brand customization of the shared app shell — without forking the core code.
+
+## The problem
+
+Three years of organic growth had left the customization codebase fragmented. Different merchants used slightly different button styles, spacing systems, and form components. Page load times had crept past two seconds. The team needed both a design system that scaled and a performance baseline that didn't slip.
+
+## My role
+
+I owned the front-end side of three concurrent merchant customizations and led the design-system effort. I also reviewed merge requests from two other developers on the team and ran the perf-budget conversation with the product lead.
+
+## Approach
+
+- Built a token-driven theme layer on top of Tailwind so each merchant got a brand palette without writing CSS
+- Restructured the component library on shadcn/ui — Radix primitives plus our own restyled wrappers — to replace eight inconsistent button variants with two
+- Introduced Redux Toolkit for cart and session state; the previous setup mixed Context and ad-hoc useReducer calls that were causing race conditions on add-to-cart
+- Set up a Lighthouse CI step that blocked merges below 85 Performance
+- Pre-cached the next likely route on hover, knocking ~400ms off perceived navigation
+
+<OutcomeMetric value="+30%" label="median page load improvement across three merchants" />
+
+## What I'd do differently
+
+I'd push for an MDX-driven theming spec from week one rather than a JSON-only system. Two merchants wanted custom landing layouts that turned into bespoke React work — MDX would have let the design team write those themselves.

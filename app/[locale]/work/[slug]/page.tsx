@@ -52,7 +52,7 @@ export default async function CaseStudyPage({ params }: { params: Params }) {
         <div className="flex items-center gap-3 mb-6">
           <span className="block w-8 h-px bg-[var(--color-accent)]" />
           <span className="font-[var(--font-mono)] text-[10px] tracking-widest text-[var(--color-accent)]">
-            [{t("entry").toUpperCase()} {entryNum} // {frontmatter.year}]
+            [{t("entry").toUpperCase()} {entryNum} · {frontmatter.year}]
           </span>
         </div>
         <h1 className="font-[var(--font-display)] text-3xl sm:text-5xl lg:text-6xl font-semibold tracking-[-0.02em] leading-[1.05] text-[var(--color-text)] max-w-4xl">

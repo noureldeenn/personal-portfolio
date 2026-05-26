@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Hero } from "@/components/site/hero";
 import { CaseCard } from "@/components/site/case-card";
@@ -10,6 +11,22 @@ import { CtaBlock } from "@/components/site/cta-block";
 import { loadAllCaseStudies } from "@/lib/work";
 import { gridProjects } from "@/lib/grid-projects";
 import type { Locale } from "@/lib/i18n/routing";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const isAr = locale === "ar";
+  return {
+    title: isAr ? "نور بدر · مهندس واجهات أمامية" : "Nour Badr · Front-End Engineer",
+    description: isAr
+      ? "أبني واجهات تُطلق وتبقى تعمل. أربع سنوات من العمل على متاجر إلكترونية ولوحات تحكم وأسواق."
+      : "I build interfaces that ship and stay shipped. Four years across e-commerce, SaaS dashboards, and marketplaces.",
+    alternates: { languages: { en: "/en", ar: "/ar" } },
+  };
+}
 
 export default async function HomePage({
   params,

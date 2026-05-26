@@ -1,0 +1,42 @@
+export const frontmatter = {
+  slug: "syft-gg-marketplace",
+  title: "Syft.gg Marketplace + Influencer Platform",
+  client: "Syft.la",
+  year: "2020–2021",
+  duration: "13 months",
+  role: "Front-End Developer",
+  stack: ["React", "Next.js", "TypeScript", "GraphQL", "Storybook", "Chakra UI", "MobX"],
+  outcome: "50k+",
+  outcomeLabel: "gamers and brands using the marketplace",
+  liveUrl: null,
+  tags: ["Marketplace", "Consumer Scale"],
+  summary: "Built Syft.gg, a marketplace connecting esports talent with brand sponsorships, alongside App.syft.la — the internal social-style tool linking influencers with campaigns.",
+  heroImage: "/work/syft/hero.png",
+  gallery: ["/work/syft/01.png", "/work/syft/02.png"],
+};
+
+## Overview
+
+Syft.la was an esports-marketing startup connecting gamers with consumer brands. I joined six months in, when the team had a working backend and a placeholder front-end that nobody trusted. I rebuilt the marketplace and shipped the companion influencer-management app.
+
+## The problem
+
+The original front-end was a CRA-era React app with no design system, no type safety, and a state-management layer that was already in its third pivot. Real users were waiting on bug fixes that should have been one-line changes.
+
+## My role
+
+Sole front-end engineer on the marketplace surface during my first six months, then technical lead for the influencer-platform spinoff with one junior developer reporting in.
+
+## Approach
+
+- Migrated the marketplace from CRA to Next.js, picking up SSR for the discovery pages where SEO actually mattered
+- Switched the state layer to MobX after benchmarking it against Redux for our use case — observables fit the real-time chat better
+- Set up Storybook and Chakra UI to give the design team a place to ship without waiting on a developer
+- Designed the GraphQL queries with the backend team, batched aggressively to keep our cold-start fetch under 400ms
+- Built the campaign-matching UI for App.syft.la — a side panel that slid in over the influencer profile with the proposal flow inline
+
+<OutcomeMetric value="+60%" label="ad reach uplift after the campaign-matching UI shipped" />
+
+## What I'd do differently
+
+I'd have introduced TypeScript on day one instead of waiting four months. The MobX migration would have been half as long.
