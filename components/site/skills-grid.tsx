@@ -2,9 +2,9 @@ import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/motion/reveal";
 
 const groups = {
-  frameworks: ["React", "Next.js", "Angular", "TypeScript", "JavaScript ES6+", "HTML", "CSS"],
-  styling: ["Tailwind", "shadcn/ui", "Material UI", "Ant Design", "Chakra UI", "Bootstrap", "SASS", "Storybook"],
-  state: ["Redux Toolkit", "Redux Thunk", "React Query", "MobX"],
+  frameworks: ["React", "Next.js", "React Native", "React Hooks", "Angular", "TypeScript", "JavaScript ES6+", "HTML", "CSS"],
+  styling: ["Tailwind", "shadcn/ui", "Material UI", "Ant Design", "Chakra UI", "Bootstrap", "SASS", "Storybook", "Swiper"],
+  state: ["Redux Toolkit", "Redux Thunk", "React Query", "MobX", "React Hook Form", "Zod"],
   backend: ["Node.js", "Express", "Nest.js", "Python"],
   apis: ["REST", "GraphQL"],
   platforms: ["Zid", "Shopify (basic)"],
