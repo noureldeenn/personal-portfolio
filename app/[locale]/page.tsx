@@ -4,12 +4,11 @@ import { Hero } from "@/components/site/hero";
 import { CaseCard } from "@/components/site/case-card";
 import { AboutStrip } from "@/components/site/about-strip";
 import { SkillsGrid } from "@/components/site/skills-grid";
-import { GridCard } from "@/components/site/grid-card";
+import { WorkArchive } from "@/components/site/work-archive";
 import { PullQuote } from "@/components/site/pull-quote";
 import { CompaniesMarquee } from "@/components/site/companies-marquee";
 import { CtaBlock } from "@/components/site/cta-block";
 import { loadAllCaseStudies } from "@/lib/work";
-import { gridProjects } from "@/lib/grid-projects";
 import type { Locale } from "@/lib/i18n/routing";
 
 export async function generateMetadata({
@@ -70,11 +69,7 @@ export default async function HomePage({
               [04] {t("moreWork").toUpperCase()}
             </span>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[var(--color-rule)]">
-            {gridProjects.map((p) => (
-              <GridCard key={p.slug} project={p} />
-            ))}
-          </div>
+          <WorkArchive />
         </div>
       </section>
 
