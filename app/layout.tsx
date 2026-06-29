@@ -46,7 +46,7 @@ const plexArabic = IBM_Plex_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nour-badr.netlify.app"),
+  metadataBase: new URL("https://noureldeenn.github.io/personal-portfolio"),
 };
 
 export default function RootLayout({

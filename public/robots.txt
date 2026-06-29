@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://nour-badr.netlify.app
-
-# Sitemaps
-Sitemap: https://nour-badr.netlify.app/sitemap.xml

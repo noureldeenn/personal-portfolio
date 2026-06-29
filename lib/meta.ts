@@ -9,7 +9,7 @@ export const siteMeta = {
   github: "https://github.com/noureldeenn",
   linkedin: "https://linkedin.com/in/nour-badr-201794155",
   bookingUrl: "https://cal.com/nour-badr/intro",
-  cvUrl: "/nour-badr-cv.pdf",
+  cvUrl: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/nour-badr-cv.pdf`,
   companies: [
     "Craft Crew",
     "Neoxero",
