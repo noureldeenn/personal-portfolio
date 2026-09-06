@@ -7,12 +7,12 @@ import type { Locale } from "@/lib/i18n/routing";
 const bio = {
   en: [
     "I'm Nour. I build front-ends for a living and have done so since 2020. My path started in mechatronics engineering at Helwan University, took a hard left through Coursera and Microverse, and landed in production React not long after.",
-    "Across eight companies — most recently Craft Crew, where since January 2026 I've owned the front end across four products, among them a radiology platform handling real medical images — I've built e-commerce that processes ten thousand transactions a month, hospital dashboards that 150 nurses sign into every morning, marketplace UIs that reach fifty thousand gamers, and the everyday things in between: forms that don't lose state, tables that stay performant past a thousand rows, design systems that actually get used.",
+    "Across eight companies — most recently Craft Crew, where since January 2026 I've owned the front end across four products, among them a radiology platform handling real medical images — I've built e-commerce storefronts and merchant dashboards, hospital scheduling tools, marketplace UIs for gamers and the brands chasing them, and the everyday things in between: forms that don't lose state, tables that stay fast as they grow, design systems that actually get used.",
     "What still gets me out of bed is the moment a slow-loading interface clicks at 60fps, or a confusing flow becomes obvious after the third user test. The interfaces I'm proudest of look like they were always supposed to work that way.",
   ],
   ar: [
     "أنا نور. أبني واجهات أمامية كعمل أساسي منذ 2020. بدأت طريقي بهندسة الميكاترونيكس في جامعة حلوان، ثم انعطفت بحدّة عبر Coursera و Microverse، ووصلت إلى React في الإنتاج بعد فترة قصيرة.",
-    "في ثماني شركات — أحدثها Craft Crew، حيث أتولّى منذ يناير 2026 الواجهة الأمامية عبر أربعة منتجات، من بينها منصة أشعة تتعامل مع صور طبية حقيقية — بنيت متاجر إلكترونية تعالج عشرة آلاف معاملة شهريًا، ولوحات تحكم مستشفيات يستخدمها 150 ممرضًا كل صباح، وواجهات أسواق تصل إلى خمسين ألف لاعب، وكل الأشياء اليومية بينها: نماذج لا تفقد حالتها، جداول تظل سريعة بعد ألف صف، أنظمة تصميم تُستخدم فعلًا.",
+    "في ثماني شركات — أحدثها Craft Crew، حيث أتولّى منذ يناير 2026 الواجهة الأمامية عبر أربعة منتجات، من بينها منصة أشعة تتعامل مع صور طبية حقيقية — بنيت متاجر إلكترونية ولوحات تحكم للتجار، وأدوات جدولة لمستشفيات، وواجهات أسواق للاعبين وللعلامات التي تلاحقهم، وكل الأشياء اليومية بينها: نماذج لا تفقد حالتها، جداول تظل سريعة كلما كبرت، أنظمة تصميم تُستخدم فعلًا.",
     "ما زال يحرّكني تلك اللحظة حين تتحول واجهة بطيئة إلى 60 إطار في الثانية، أو حين يصبح مسار محيّر بديهيًا بعد ثالث اختبار مع المستخدم. أكثر الواجهات التي أفتخر بها تبدو وكأنها كانت دائمًا يفترض أن تعمل بهذه الطريقة.",
   ],
 };

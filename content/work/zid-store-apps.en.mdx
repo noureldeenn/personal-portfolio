@@ -6,11 +6,11 @@ export const frontmatter = {
   duration: "Ongoing",
   role: "Front-End Developer",
   stack: ["React", "Next.js", "TypeScript", "Tailwind", "shadcn/ui", "Redux Toolkit"],
-  outcome: "+30%",
-  outcomeLabel: "load speed improvement",
+  outcome: "—",
+  outcomeLabel: "design system adopted across every merchant build",
   liveUrl: null,
   tags: ["E-commerce", "Performance"],
-  summary: "Customized React applications for the Zid Store platform, building a consistent design system with Tailwind and shadcn/ui that cut UI inconsistencies 40% and improved load speed 30%.",
+  summary: "Customized React applications for the Zid Store platform, building a consistent design system with Tailwind and shadcn/ui so every merchant build started from one set of components instead of a fork.",
   heroImage: "/work/zid-store/hero.png",
   gallery: ["/work/zid-store/01.png", "/work/zid-store/02.png"],
 };
@@ -21,7 +21,7 @@ Neoxero ships React-based storefronts on top of Zid, the largest e-commerce plat
 
 ## The problem
 
-Three years of organic growth had left the customization codebase fragmented. Different merchants used slightly different button styles, spacing systems, and form components. Page load times had crept past two seconds. The team needed both a design system that scaled and a performance baseline that didn't slip.
+Three years of organic growth had left the customization codebase fragmented. Different merchants used slightly different button styles, spacing systems, and form components, and page loads had been getting slower. The team needed both a design system that scaled and a performance baseline that didn't slip.
 
 ## My role
 
@@ -30,12 +30,10 @@ I owned the front-end side of three concurrent merchant customizations and led t
 ## Approach
 
 - Built a token-driven theme layer on top of Tailwind so each merchant got a brand palette without writing CSS
-- Restructured the component library on shadcn/ui — Radix primitives plus our own restyled wrappers — to replace eight inconsistent button variants with two
+- Restructured the component library on shadcn/ui — Radix primitives plus our own restyled wrappers — to replace a drawer full of near-identical button variants with a single pair
 - Introduced Redux Toolkit for cart and session state; the previous setup mixed Context and ad-hoc useReducer calls that were causing race conditions on add-to-cart
-- Set up a Lighthouse CI step that blocked merges below 85 Performance
-- Pre-cached the next likely route on hover, knocking ~400ms off perceived navigation
-
-<OutcomeMetric value="+30%" label="median page load improvement across three merchants" />
+- Set up a Lighthouse CI step that blocked merges which regressed performance
+- Pre-cached the next likely route on hover, so navigation felt immediate rather than fetched
 
 ## What I'd do differently
 

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Link } from "@/lib/i18n/routing";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 import { loadCaseStudy, getAdjacent, caseStudySlugs, type CaseStudySlug } from "@/lib/work";
 import { routing, type Locale } from "@/lib/i18n/routing";
 import { SidebarMeta } from "@/components/work/sidebar-meta";
@@ -67,7 +68,7 @@ export default async function CaseStudyPage({ params }: { params: Params }) {
         <div className="lg:col-span-8 order-2 lg:order-1">
           <div className="relative aspect-[16/9] mb-12 overflow-hidden border border-[var(--color-rule)]">
             <Image
-              src={frontmatter.heroImage}
+              src={asset(frontmatter.heroImage)}
               alt={frontmatter.title}
               fill
               priority

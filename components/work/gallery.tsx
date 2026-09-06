@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { asset } from "@/lib/asset";
 import { useState } from "react";
 import {
   Dialog,
@@ -24,7 +25,7 @@ export function Gallery({ images }: { images: string[] }) {
               data-cursor="hover"
             >
               <Image
-                src={src}
+                src={asset(src)}
                 alt=""
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -36,7 +37,7 @@ export function Gallery({ images }: { images: string[] }) {
             <DialogTitle className="sr-only">Gallery image</DialogTitle>
             {active && (
               <Image
-                src={active}
+                src={asset(active)}
                 alt=""
                 width={1600}
                 height={1000}

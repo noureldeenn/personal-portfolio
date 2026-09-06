@@ -6,8 +6,8 @@ export const frontmatter = {
   duration: "13 months",
   role: "Front-End Developer",
   stack: ["React", "Next.js", "TypeScript", "GraphQL", "Storybook", "Chakra UI", "MobX"],
-  outcome: "50k+",
-  outcomeLabel: "gamers and brands using the marketplace",
+  outcome: "—",
+  outcomeLabel: "marketplace and influencer app both shipped",
   liveUrl: null,
   tags: ["Marketplace", "Consumer Scale"],
   summary: "Built Syft.gg, a marketplace connecting esports talent with brand sponsorships, alongside App.syft.la — the internal social-style tool linking influencers with campaigns.",
@@ -32,10 +32,8 @@ Sole front-end engineer on the marketplace surface during my first six months, t
 - Migrated the marketplace from CRA to Next.js, picking up SSR for the discovery pages where SEO actually mattered
 - Switched the state layer to MobX after benchmarking it against Redux for our use case — observables fit the real-time chat better
 - Set up Storybook and Chakra UI to give the design team a place to ship without waiting on a developer
-- Designed the GraphQL queries with the backend team, batched aggressively to keep our cold-start fetch under 400ms
+- Designed the GraphQL queries with the backend team, batched aggressively so the first load fetched once instead of waterfalling
 - Built the campaign-matching UI for App.syft.la — a side panel that slid in over the influencer profile with the proposal flow inline
-
-<OutcomeMetric value="+60%" label="ad reach uplift after the campaign-matching UI shipped" />
 
 ## What I'd do differently
 

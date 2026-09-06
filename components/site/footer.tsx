@@ -1,4 +1,5 @@
 import { useTranslations, useLocale } from "next-intl";
+import { Link } from "@/lib/i18n/routing";
 import { siteMeta } from "@/lib/meta";
 
 export function Footer() {
@@ -48,13 +49,13 @@ export function Footer() {
             <ul className="space-y-2">
               {(["work", "about", "contact"] as const).map((key) => (
                 <li key={key}>
-                  <a
-                    href={`/${locale}${key === "work" ? "/#work" : `/${key}`}`}
+                  <Link
+                    href={key === "work" ? "/#work" : `/${key}`}
                     className="font-[var(--font-mono)] text-sm text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors"
                     data-cursor="hover"
                   >
                     {tNav(key)}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

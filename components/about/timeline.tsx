@@ -34,8 +34,8 @@ const entries: Entry[] = [
     dates: "Nov 2024 – Dec 2025",
     role: "Front-End Developer",
     description: {
-      en: "Customized React apps for Zid Store. Built a Tailwind + shadcn/ui design system that cut UI inconsistencies 40%. Integrated Redux Toolkit, dropping API errors 20%.",
-      ar: "خصصت تطبيقات React لمنصة زد. بنيت نظام تصميم بـ Tailwind و shadcn/ui قلّل عدم الاتساق بنسبة 40%. ودمجت Redux Toolkit مما خفّض أخطاء API بنسبة 20%.",
+      en: "Customized React apps and themes for merchants on Zid Store. Built a Tailwind + shadcn/ui design system so every merchant build started from one set of components, and moved cart and session state onto Redux Toolkit.",
+      ar: "خصصت تطبيقات React وقوالب لتجار على منصة زد. بنيت نظام تصميم بـ Tailwind و shadcn/ui ليبدأ كل متجر من مجموعة مكوّنات واحدة، ونقلت حالة السلة والجلسة إلى Redux Toolkit.",
     },
   },
   {
@@ -43,8 +43,8 @@ const entries: Entry[] = [
     dates: "Jan 2024 – Nov 2024",
     role: "Front-End Developer (Zoho)",
     description: {
-      en: "Training center platform integrating POS, social, and CRM. Reduced manual tasks 35%, generated 200+ leads monthly via automated campaigns.",
-      ar: "منصة مركز تدريب تربط POS و وسائل التواصل و CRM. خفّضت المهام اليدوية 35%، وولّدت أكثر من 200 عميل شهريًا.",
+      en: "Training centre platform joining POS, social channels, and CRM into one system, so enrolments and payments stopped being reconciled by hand. Automated campaigns delivered enquiries straight into the CRM.",
+      ar: "منصة مركز تدريب تربط POS ووسائل التواصل و CRM في نظام واحد، فتوقّفت تسوية التسجيلات والمدفوعات يدويًا. وحملات آلية تُوصِل الاستفسارات مباشرة إلى الـ CRM.",
     },
   },
   {
@@ -52,8 +52,8 @@ const entries: Entry[] = [
     dates: "Sep 2023 – Dec 2023",
     role: "Front-End Developer",
     description: {
-      en: "Hospital dashboard used by 150+ staff (40% scheduling time cut). Real-estate client management with advanced reporting.",
-      ar: "لوحة تحكم مستشفى يستخدمها أكثر من 150 موظفًا (تقليل وقت الجدولة بنسبة 40%). نظام إدارة عملاء عقارات بتقارير متقدمة.",
+      en: "Hospital dashboard for scheduling staff and clinics, designed around how the scheduling team already worked. Real-estate client management with reporting agents could query themselves.",
+      ar: "لوحة تحكم مستشفى لجدولة الطواقم والعيادات، مبنية على طريقة عمل فريق الجدولة نفسها. ونظام إدارة عملاء عقارات بتقارير يستعلم عنها الوكيل بنفسه.",
     },
   },
   {
@@ -61,8 +61,8 @@ const entries: Entry[] = [
     dates: "May 2022 – Dec 2022",
     role: "Front-End Developer",
     description: {
-      en: "Dookan e-commerce: 10k+ monthly transactions. Reduced cart abandonment 15% by reworking checkout and search filters.",
-      ar: "متجر دكان: أكثر من 10 آلاف معاملة شهرية. خفّضت معدل التخلي عن السلة 15% بإعادة بناء الدفع وفلاتر البحث.",
+      en: "Built both sides of Dookan — the merchant dashboard and the customer storefront — and reworked checkout and search filtering so a purchase finished in one flow.",
+      ar: "بنيت جانبَي دكان — لوحة التاجر وواجهة العميل — وأعدت بناء الدفع وفلاتر البحث ليكتمل الشراء في مسار واحد.",
     },
   },
   {
@@ -70,8 +70,8 @@ const entries: Entry[] = [
     dates: "Oct 2021 – May 2022",
     role: "Front-End Developer",
     description: {
-      en: "Productive-Families platform serving 5k+ users. Company Next.js site lifted client engagement 30%.",
-      ar: "منصة الأسر المنتجة تخدم أكثر من 5 آلاف مستخدم. موقع الشركة بـ Next.js رفع تفاعل العملاء 30%.",
+      en: "Productive Families — a platform and delivery dashboard letting home producers sell online and follow an order through to delivery. Also delivered the company's own Next.js site.",
+      ar: "منصة الأسر المنتجة — منصة ولوحة توصيل تتيح للمنتجين المنزليين البيع أونلاين ومتابعة الطلب حتى التسليم. وسلّمت أيضًا موقع الشركة بـ Next.js.",
     },
   },
   {
@@ -79,8 +79,8 @@ const entries: Entry[] = [
     dates: "Sep 2020 – Oct 2021",
     role: "Front-End Developer",
     description: {
-      en: "Syft.gg marketplace reaching 50k+ gamers/brands. App.syft.la social platform linking influencers with campaigns (+60% ad reach).",
-      ar: "متجر Syft.gg وصل إلى أكثر من 50 ألف لاعب وعلامة تجارية. منصة App.syft.la الاجتماعية تربط المؤثرين بالحملات (+60% وصول).",
+      en: "Syft.gg — an influencer marketplace built by gamers for gamers and the brands reaching them — across two versions and its marketing site, plus App.syft.la where influencers found and joined campaigns.",
+      ar: "متجر Syft.gg — سوق مؤثرين بناه لاعبون للاعبين وللعلامات التي تريد الوصول إليهم — عبر نسختين وموقعه التسويقي، إضافة إلى App.syft.la حيث يجد المؤثرون الحملات وينضمّون إليها.",
     },
   },
 ];
