@@ -1,32 +1,47 @@
 export const frontmatter = {
   slug: "craft-crew-lms",
-  title: "Craft Crew — Learning Management System",
+  title: "Craft Crew — Front-End Direction Across Four Products",
   client: "Craft Crew",
-  year: "Jun 2026 – Present",
+  year: "Jan 2026 – Present",
   duration: "Ongoing",
-  role: "Front-End Developer",
-  stack: ["Next.js", "TypeScript", "Tailwind", "shadcn/ui"],
+  role: "Senior Front-End Engineer",
+  stack: ["Next.js", "TypeScript", "Nest.js", "Tailwind", "shadcn/ui", "Husky"],
   outcome: "—",
-  outcomeLabel: "shipping in progress",
+  outcomeLabel: "two of four products delivered",
   liveUrl: null,
-  tags: ["LMS", "Education"],
-  summary: "Joining Craft Crew in June 2026 as the front-end developer on a learning management system. Building the LMS surface in Next.js, Tailwind, and shadcn/ui.",
+  tags: ["Healthcare", "Education", "Platform"],
+  summary: "Joined Craft Crew in January 2026 as senior front-end engineer, owning every front-end decision across four products — a radiology platform handling real medical images, operational systems for imaging centres, an education platform, and a carbon-accounting platform — and working on the backend in Nest.js.",
   heroImage: "/work/craft-crew-lms/hero.png",
   gallery: [],
 };
 
 ## Overview
 
-Joining Craft Crew in June 2026 as the front-end developer on their learning management system. The LMS supports course authoring, student progress tracking, assessments, and instructor dashboards.
+Craft Crew was building four products at once, with no shared technical direction across any of them:
+
+- A **radiology platform** handling real medical images for Egyptian imaging centres, with an AI stage ahead
+- **Operational systems** for those same imaging centres
+- An **education and courses platform**
+- A **carbon-accounting platform** for a client in Morocco
+
+Each had been started differently. With a small team spread across all four, every move between projects cost days of relearning.
 
 ## My role
 
-Front-end developer on the LMS product surface. Working alongside the design lead, backend team, and product owner.
+Senior front-end engineer, owning every front-end decision across the four products, and working on the backend in Nest.js.
 
-## Stack
+## Approach
 
-Next.js (App Router, RSC by default), TypeScript, Tailwind, shadcn/ui primitives, Redux Toolkit for cross-page state where server components don't fit, MDX for course content authoring.
+- Chose Next.js and TypeScript on the front end and Nest.js on the back for one reason: a single language across the system lets a small team move between products without changing how it thinks
+- Put the standards into the tooling rather than into documents nobody reads — commit-stage checks through Husky, so a rule lives in the commit process instead of on a wiki page
+- Settled on one shared approach to forms and validation, so every product behaves the same way and a developer arriving from another product already knows how it works
+- Took on the intern team: reviewing their code, allocating their work, and explaining why something breaks rather than quietly correcting it
+- Building an internal tooling set that turns a Figma link into front-end code, so repeated design translation across four products becomes review rather than retyping. Still in trial, not yet team-adopted
+
+## Where it stands
+
+Two of the four products have been delivered. The stack chosen in January is still the company standard, and the interns have moved on to larger tasks than they could handle when they started.
 
 ## What this case study will become
 
-Outcomes, screenshots, and live URL will be added once features ship to production and Craft Crew clears them for public sharing.
+Screenshots and a live URL will be added once features ship publicly and Craft Crew clears them for sharing.

@@ -1,35 +1,38 @@
 export const frontmatter = {
   slug: "vertex-radio",
-  title: "Vertex Era — Radio Streaming App",
+  title: "Vertex Era — Tag Pro",
   client: "Vertex Era",
-  year: "Nov 2025 – Feb 2026",
-  duration: "4 months · freelance",
+  year: "Dec 2025 – Feb 2026",
+  duration: "3 months · freelance",
   role: "Freelance Front-End Developer",
   stack: ["React", "Next.js", "TypeScript", "Tailwind"],
   outcome: "—",
-  outcomeLabel: "case study details pending",
-  liveUrl: null,
-  tags: ["Audio", "Freelance"],
-  summary: "A radio streaming app built as a freelance engagement for Vertex Era between November 2025 and February 2026. Focused on smooth playback, responsive layout, and audio state that survives navigation.",
+  outcomeLabel: "live at tagpro.ae",
+  liveUrl: "https://www.tagpro.ae/",
+  tags: ["Broadcast", "SaaS", "Freelance"],
+  summary: "The front end of Tag Pro, Vertex Era's UAE platform for monitoring and verifying radio and broadcast advertising — it listens to campaigns as they air, checks the spots a client paid for actually ran, and reports back where and when they did.",
   heroImage: "/work/vertex-radio/hero.png",
   gallery: [],
 };
 
 ## Overview
 
-A four-month freelance engagement building Vertex Era's radio streaming app while still at Neoxero. The brief: a fast, mobile-first listening experience that didn't drop audio when the user navigated between pages.
+An advertiser buys a slot on a radio station and then has to take the station's word for it that the spot ran. Tag Pro closes that gap: it monitors channels as they broadcast, verifies that the spots a client paid for actually aired, and reports back where and when each one did.
+
+A three-month freelance engagement for Vertex Era, building the front end of that platform.
 
 ## My role
 
-Sole front-end developer for the engagement. Worked directly with the founder on UX, picked the stack, shipped to production.
+Sole front-end developer for the engagement. Worked directly with the client on the interface, picked the stack, and shipped to production at [tagpro.ae](https://www.tagpro.ae/).
 
 ## Approach
 
-- Built the player as a top-level component that persisted across route changes, so audio wouldn't restart on navigation
-- Used a global audio context so any page could control playback without prop-drilling
-- Designed the now-playing UI to work just as well at 320px wide as on a desktop browser
-- Lazy-loaded the station list and used a virtualized list once the catalog passed a hundred entries
+- Built the dashboard around **live status** — channel widgets and data visualisations that update while a broadcast is still running, so an operator sees a problem during the campaign rather than in a report afterwards
+- Kept the audio player as a top-level component that survives route changes, so monitoring a live channel doesn't stop the moment you navigate to a different screen
+- Used a global audio context, so any screen can control playback without prop-drilling through the page tree
+- Made the whole product work at 320px as well as it does on a desktop browser, because the people checking a campaign are usually not sitting at a desk
+- Lazy-loaded and virtualised the channel list once the catalogue outgrew a single screen
 
-## Pending
+## What this case study will become
 
-Detailed metrics and screenshots will be added once cleared for public sharing.
+Screenshots and interface detail will be added once cleared for public sharing. The product itself is live at [tagpro.ae](https://www.tagpro.ae/).

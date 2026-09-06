@@ -23,33 +23,61 @@ export const workArchive: CompanyArchive[] = [
   {
     slug: "craft-crew",
     company: "Craft Crew",
-    period: "Jun 2026 – Present",
+    period: "Jan 2026 – Present",
     blurb: {
-      en: "Front-end on a learning management system.",
-      ar: "واجهة أمامية لنظام إدارة تعلم.",
+      en: "Front-end direction across four products, plus backend work in Nest.js.",
+      ar: "قيادة الواجهات الأمامية عبر أربعة منتجات، إضافة إلى عمل على الباك-إند بـ Nest.js.",
     },
     featuredSlug: "craft-crew-lms",
     groups: [
-      { projects: [{ name: "LMS" }] },
+      {
+        label: { en: "Products", ar: "المنتجات" },
+        projects: [
+          {
+            name: "Radiology Platform",
+            meta: { en: "Real medical images, AI stage ahead", ar: "صور طبية حقيقية، ومرحلة ذكاء اصطناعي قادمة" },
+          },
+          {
+            name: "Imaging Centre Systems",
+            meta: { en: "Operations", ar: "أنظمة تشغيل" },
+          },
+          {
+            name: "Education Platform",
+            meta: { en: "Courses and learning", ar: "دورات وتعلّم" },
+          },
+          {
+            name: "Carbon Accounting",
+            meta: { en: "Client in Morocco", ar: "عميل في المغرب" },
+          },
+        ],
+      },
     ],
   },
   {
     slug: "vertex-era",
     company: "Vertex Era",
-    period: "Nov 2025 – Feb 2026",
+    period: "Dec 2025 – Feb 2026",
     blurb: {
-      en: "Freelance — radio streaming app.",
-      ar: "عمل حر — تطبيق راديو بثّي.",
+      en: "Freelance — front end of a radio and broadcast ad-monitoring platform.",
+      ar: "عمل حر — واجهة منصة لمراقبة إعلانات الراديو والبث.",
     },
     featuredSlug: "vertex-radio",
     groups: [
-      { projects: [{ name: "Radio Streaming App" }] },
+      {
+        projects: [
+          {
+            name: "Tag Pro",
+            meta: { en: "Broadcast monitoring", ar: "مراقبة البث" },
+            href: "https://www.tagpro.ae/",
+          },
+        ],
+      },
     ],
   },
   {
     slug: "neoxero",
     company: "Neoxero",
-    period: "Nov 2024 – May 2026",
+    period: "Nov 2024 – Dec 2025",
     blurb: {
       en: "Customizing React apps and themes for merchants on the Zid Store platform.",
       ar: "تخصيص تطبيقات React وقوالب لتجار على منصة متجر زد.",

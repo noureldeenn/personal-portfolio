@@ -12,8 +12,8 @@ export const siteMeta = {
   cvUrl: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/nour-badr-cv.pdf`,
   companies: [
     "Craft Crew",
-    "Neoxero",
     "Vertex Era",
+    "Neoxero",
     "Atech",
     "Perfect Touch",
     "Smartivemedia",

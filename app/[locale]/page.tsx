@@ -21,8 +21,8 @@ export async function generateMetadata({
   return {
     title: isAr ? "نور بدر · مهندس واجهات أمامية" : "Nour Badr · Front-End Engineer",
     description: isAr
-      ? "أبني واجهات تُطلق وتبقى تعمل. أربع سنوات من العمل على متاجر إلكترونية ولوحات تحكم وأسواق."
-      : "I build interfaces that ship and stay shipped. Four years across e-commerce, SaaS dashboards, and marketplaces.",
+      ? "أبني واجهات تُطلق وتبقى تعمل. ست سنوات من العمل على متاجر إلكترونية ولوحات تحكم وأسواق ورعاية صحية وتعليم."
+      : "I build interfaces that ship and stay shipped. Six years across e-commerce, SaaS dashboards, marketplaces, healthcare and education.",
     alternates: { languages: { en: "/en", ar: "/ar" } },
   };
 }

@@ -13,25 +13,25 @@ type Entry = {
 const entries: Entry[] = [
   {
     company: "Craft Crew",
-    dates: "Jun 2026 – Present",
-    role: "Front-End Developer",
+    dates: "Jan 2026 – Present",
+    role: "Senior Front-End Engineer",
     description: {
-      en: "Building a learning management system in Next.js, TypeScript, Tailwind, and shadcn/ui. Owning the front-end of the LMS surface from design handoff to production.",
-      ar: "أبني نظام إدارة تعلم بـ Next.js و TypeScript و Tailwind و shadcn/ui. أتولّى واجهة المنصة من تسليم التصميم حتى الإنتاج.",
+      en: "Own every front-end decision across four products — a radiology platform handling real medical images, operational systems for imaging centres, an education platform, and a carbon-accounting platform — and work on the backend in Nest.js. Chose the stack, put the standards into the tooling, and took on the intern team.",
+      ar: "أتولّى كل قرارات الواجهة عبر أربعة منتجات — منصة أشعة تتعامل مع صور طبية حقيقية، وأنظمة تشغيل لمراكز الأشعة، ومنصة تعليمية، ومنصة محاسبة كربونية — وأعمل على الباك-إند بـ Nest.js. اخترت التقنيات، ووضعت المعايير داخل الأدوات، وتولّيت فريق المتدربين.",
     },
   },
   {
     company: "Vertex Era",
-    dates: "Nov 2025 – Feb 2026",
+    dates: "Dec 2025 – Feb 2026",
     role: "Freelance Front-End Developer",
     description: {
-      en: "Built a radio streaming app on the side. Focused on a smooth playback UI, responsive layout, and persistent audio state across navigation.",
-      ar: "بنيت تطبيق راديو بثّي كعمل مستقل. ركّزت على واجهة تشغيل سلسة، وتخطيط متجاوب، وحالة صوت تستمر عبر التنقّل.",
+      en: "Built the front end of Tag Pro, a UAE platform for monitoring and verifying radio and broadcast advertising. Live dashboard that updates while a broadcast is still running, and audio that survives navigation.",
+      ar: "بنيت واجهة Tag Pro، منصة إماراتية لمراقبة إعلانات الراديو والبث والتحقق منها. لوحة تحكم مباشرة تتحدّث أثناء استمرار البث، وصوت يستمر عبر التنقّل.",
     },
   },
   {
     company: "Neoxero",
-    dates: "Nov 2024 – May 2026",
+    dates: "Nov 2024 – Dec 2025",
     role: "Front-End Developer",
     description: {
       en: "Customized React apps for Zid Store. Built a Tailwind + shadcn/ui design system that cut UI inconsistencies 40%. Integrated Redux Toolkit, dropping API errors 20%.",

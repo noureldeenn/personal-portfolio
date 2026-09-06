@@ -9,6 +9,14 @@ export type GridProject = {
 
 export const gridProjects: GridProject[] = [
   {
+    slug: "tag-pro",
+    name: "Tag Pro",
+    year: "2026",
+    stack: ["React", "Next.js", "TypeScript", "Tailwind"],
+    outcome: { en: "Radio & broadcast ad monitoring", ar: "مراقبة إعلانات الراديو والبث" },
+    liveUrl: "https://www.tagpro.ae/",
+  },
+  {
     slug: "oilmz",
     name: "Oilmz",
     year: "2025",
