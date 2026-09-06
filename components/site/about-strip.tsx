@@ -39,8 +39,8 @@ export function AboutStrip() {
 
   const bio =
     locale === "ar"
-      ? "أبني واجهات منذ 2020. عملت في ثماني شركات عبر التجارة الإلكترونية ولوحات SaaS والأسواق ولوحات الرعاية الصحية ومنصات التعليم وتطبيقات الصوت. ما زلت أؤمن بأن السرعة والوضوح وأدق التفاصيل البصرية هي ما يفرّق المنتج الجيد عن العظيم."
-      : "I've been building interfaces since 2020. Eight companies across e-commerce, SaaS dashboards, marketplaces, healthcare, learning platforms, and audio apps. I still believe speed, clarity, and the smallest visual details are what separate a good product from a great one.";
+      ? "أبني واجهات منذ 2020. ثماني شركات عبر التجارة الإلكترونية ولوحات SaaS والأسواق والرعاية الصحية والتعليم ومراقبة البث. ما زلت أؤمن بأن السرعة والوضوح وأدق التفاصيل البصرية هي ما يفرّق المنتج الجيد عن العظيم."
+      : "I've been building interfaces since 2020. Eight companies across e-commerce, SaaS dashboards, marketplaces, healthcare, education, and broadcast monitoring. I still believe speed, clarity, and the smallest visual details are what separate a good product from a great one.";
 
   return (
     <section

@@ -7,12 +7,12 @@ import type { Locale } from "@/lib/i18n/routing";
 const bio = {
   en: [
     "I'm Nour. I build front-ends for a living and have done so since 2020. My path started in mechatronics engineering at Helwan University, took a hard left through Coursera and Microverse, and landed in production React not long after.",
-    "Across eight companies — most recently Craft Crew, where since January 2026 I've owned the front end across four products, among them a radiology platform handling real medical images — I've built e-commerce storefronts and merchant dashboards, hospital scheduling tools, marketplace UIs for gamers and the brands chasing them, and the everyday things in between: forms that don't lose state, tables that stay fast as they grow, design systems that actually get used.",
+    "Across eight companies — most recently Craft Crew, where since January 2026 I've owned the front end across four products, among them a radiology platform handling real medical images — I've built e-commerce storefronts and merchant dashboards, hospital scheduling tools, a platform that verifies radio ads actually aired, marketplace UIs for gamers and the brands chasing them, and the everyday things in between: forms that don't lose state, tables that stay fast as they grow, design systems that actually get used.",
     "What still gets me out of bed is the moment a slow-loading interface clicks at 60fps, or a confusing flow becomes obvious after the third user test. The interfaces I'm proudest of look like they were always supposed to work that way.",
   ],
   ar: [
     "أنا نور. أبني واجهات أمامية كعمل أساسي منذ 2020. بدأت طريقي بهندسة الميكاترونيكس في جامعة حلوان، ثم انعطفت بحدّة عبر Coursera و Microverse، ووصلت إلى React في الإنتاج بعد فترة قصيرة.",
-    "في ثماني شركات — أحدثها Craft Crew، حيث أتولّى منذ يناير 2026 الواجهة الأمامية عبر أربعة منتجات، من بينها منصة أشعة تتعامل مع صور طبية حقيقية — بنيت متاجر إلكترونية ولوحات تحكم للتجار، وأدوات جدولة لمستشفيات، وواجهات أسواق للاعبين وللعلامات التي تلاحقهم، وكل الأشياء اليومية بينها: نماذج لا تفقد حالتها، جداول تظل سريعة كلما كبرت، أنظمة تصميم تُستخدم فعلًا.",
+    "في ثماني شركات — أحدثها Craft Crew، حيث أتولّى منذ يناير 2026 الواجهة الأمامية عبر أربعة منتجات، من بينها منصة أشعة تتعامل مع صور طبية حقيقية — بنيت متاجر إلكترونية ولوحات تحكم للتجار، وأدوات جدولة لمستشفيات، ومنصة تتحقّق من أن إعلانات الراديو أُذيعت فعلًا، وواجهات أسواق للاعبين وللعلامات التي تلاحقهم، وكل الأشياء اليومية بينها: نماذج لا تفقد حالتها، جداول تظل سريعة كلما كبرت، أنظمة تصميم تُستخدم فعلًا.",
     "ما زال يحرّكني تلك اللحظة حين تتحول واجهة بطيئة إلى 60 إطار في الثانية، أو حين يصبح مسار محيّر بديهيًا بعد ثالث اختبار مع المستخدم. أكثر الواجهات التي أفتخر بها تبدو وكأنها كانت دائمًا يفترض أن تعمل بهذه الطريقة.",
   ],
 };
